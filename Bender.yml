@@ -1,0 +1,16 @@
+# Copyright AccurateRTL contributors.
+# Licensed under the MIT License, see LICENSE for details.
+# SPDX-License-Identifier: MIT
+
+package:
+  name: lio_ifc
+
+sources:
+  - hw/rtl/axi4lite_if.sv
+  - hw/rtl/axi4_if.sv 
+  
+  # TB sources
+  - target: any(test,simulation)
+    files:
+
+   
